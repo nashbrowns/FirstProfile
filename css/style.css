@@ -1,0 +1,47 @@
+/* ---------------------------------------------------------------------------- */
+/* Header/Body CSS                                                              */
+/* ---------------------------------------------------------------------------- */
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#efeee7;
+    color:#333333;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #333333;
+    color:#eee;
+    text-align:center;
+    font-size:28px
+}
+/* ---------------------------------------------------------------------------- */
+/* Classes                                                                      */
+/* ---------------------------------------------------------------------------- */
+.container{
+    width:1024px;
+    margin:0 auto;
+}
+.link{
+    color:#d21034;
+}
+/* ---------------------------------------------------------------------------- */
+/* IDs                                                                          */
+/* ---------------------------------------------------------------------------- */
+#head2{
+    font-size:24px;
+}
+#main-bio{
+    float:left;
+    width:70%;
+}
+#contact-info{
+    float:left;
+    width:30%;
+    line-height: 150%;
+}
+#bio-image{
+    float:left;
+    padding-right:20px;
+    width:300px;
+    border-radius: 200px;
+}
